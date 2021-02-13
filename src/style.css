@@ -1,3 +1,32 @@
 html {
   font-family: Lato;
+  font-size: 100%;
+}
+a {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+.NaglowekStrony {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  border-bottom: 1px solid blue;
+  background-color: aqua;
+}
+
+.Naglowek {
+  display: block;
+  background: url("https://sii.pl/wp-content/themes/sii-sage/resources/assets/images/logo-sii.png")
+    no-repeat center center;
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+}
+.Stopka {
+  background-color: aquamarine;
+}
+
+.Kontent {
+  min-height: 50vh;
 }

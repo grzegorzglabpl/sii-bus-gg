@@ -1,7 +1,14 @@
 import React from "react";
 
 const Naglowek = () => {
-  return <h1>Naglowek</h1>;
+  return (
+    <header className="NaglowekStrony">
+      <a className="Naglowek" id="logo" href="/">
+        &nbsp;
+      </a>
+      <h1>Power Burgersi</h1>
+    </header>
+  );
 };
 
 export default Naglowek;

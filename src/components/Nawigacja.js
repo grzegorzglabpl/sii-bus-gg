@@ -1,7 +1,20 @@
 import React from "react";
+import Routers from "../routers";
 
 const Nawigacja = () => {
-  return <h1>Nawigacja</h1>;
+  
+  const Links = () =>
+    Object.entries(Routers).map(([key, value]) => (
+      <a key={key.id} href={key}>
+        {key}
+      </a>
+    ));
+
+  return (
+    <nav>
+      <Links />
+    </nav>
+  );
 };
 
 export default Nawigacja;

@@ -15,6 +15,7 @@ import Wydarzenie from "./Wydarzenie";
 export default {
   Alergeny: Alergeny,
   Artykul: Artykul,
+  Artykuly: Artykuly,
   DostepneMenu: DostepneMenu,
   Informacje: Informacje,
   Komentarze: Komentarze,
